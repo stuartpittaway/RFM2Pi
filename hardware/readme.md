@@ -10,13 +10,13 @@ See board folder
 
 ![schematic.png](schematic.png)
 
-Download schematic: [https://github.com/openenergymonitor/RFM2Pi/blob/master/board/v2/RFM2Pi_v2.6.sch](https://github.com/openenergymonitor/RFM2Pi/blob/master/board/v2/RFM2Pi_v2.6.sch)
+Download schematic: [https://raw.githubusercontent.com/openenergymonitor/RFM2Pi/master/hardware/RFM12Pi_V2.6/RFM2Pi_v2.6.sch](https://raw.githubusercontent.com/openenergymonitor/RFM2Pi/master/hardware/RFM12Pi_V2.6/RFM2Pi_v2.6.sch)
 
 ### Board
 
 ![board.png](board.png)
 
-Download board: [https://github.com/openenergymonitor/RFM2Pi/blob/master/board/v2/RFM2Pi_v2.6.brd](https://github.com/openenergymonitor/RFM2Pi/blob/master/board/v2/RFM2Pi_v2.6.brd)
+Download board: [https://raw.githubusercontent.com/openenergymonitor/RFM2Pi/master/hardware/RFM12Pi_V2.6/RFM2Pi_v2.6.brd](https://raw.githubusercontent.com/openenergymonitor/RFM2Pi/master/hardware/RFM12Pi_V2.6/RFM2Pi_v2.6.brd)
 
 ### Open Hardware
 
