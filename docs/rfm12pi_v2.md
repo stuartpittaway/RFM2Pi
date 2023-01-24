@@ -69,8 +69,7 @@ which gpio pin is being used for DTR (reset):
 RFM12Pi firmware, this step should not be required unless you assembled
 the RFM12Pi with a blank ATmega328.**
 
-*Note: the RFM12Pi is a 3.3V device. It should not be powered by a 5V
-ISP programmer.*
+*Note: the RFM12Pi is a 3.3V device. It should not be powered by a 5V ISP programmer.*
 
 To avoid accidental connection to 5V, the VCC pin on the ISP header is
 by default, disconnected. A jumper connection between the two adjacent
@@ -129,8 +128,6 @@ In order to compile Arduino sketches to work for this modified
 bootloder, we need to add a new entry in
 arduino-1.0.2\\hardware\\arduino\\boards.txt.
 
-<code>
-
     atmega328_384_8.name=ATmega328 Optiboot @ 38,400baud w/ 8MHz Int. RC Osc.
     
     atmega328_384_8.upload.protocol=arduino
@@ -149,8 +146,6 @@ arduino-1.0.2\\hardware\\arduino\\boards.txt.
     atmega328_384_8.build.f_cpu=8000000L
     atmega328_384_8.build.core=arduino
     atmega328_384_8.build.variant=standard
-
-</code>
 
 Now we need to select board \> ATmega328 Optiboot @ 38,400baud with 8MHz
 Internal RC Osc in the Arduino IDE when compiling sketches.
