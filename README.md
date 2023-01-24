@@ -1,8 +1,4 @@
 # RFM2Pi
-======
-
-[![Build Status](https://travis-ci.org/openenergymonitor/RFM2Pi.svg?branch=master)](https://travis-ci.org/openenergymonitor/RFM2Pi)
-
 
 ## RFM12B / RFM69CW to Raspberry Pi board
 
