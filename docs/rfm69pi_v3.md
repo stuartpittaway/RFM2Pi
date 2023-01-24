@@ -1,6 +1,6 @@
 # RFM69Pi V3
  
-![](img/v3/RFM69Pi RasPi.JPG)
+![](img/v3/RFM69Pi_RasPi.JPG)
 
 Development of the RFM69Pi has been a team effort between Martin Harizanov, Glyn Hudson and Ken Boak.
 
@@ -146,9 +146,9 @@ Now we need to select: Board > ATmega328 Optiboot at 38,400 bps with 8MHz Intern
 
 The board schematic, layout (in Eagle CAD format) are available in this repo.
 
-![](img/RFm69PiV3.1 brd.jpg‎‎)
+![](img/RFm69PiV3_1_brd.jpg‎‎)
 
-![](img/RFm69PiV3.1 sch.png‎‎)
+![](img/RFm69PiV3_1_sch.png‎‎)
 
 
 ## Debugging
