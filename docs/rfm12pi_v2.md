@@ -162,11 +162,9 @@ Github:](https://github.com/openenergymonitor/RFM2Pi/tree/master/firmware/RF12_D
 [Martin Harizanov's original blog post introducing the RFM12Pi
 V2](http://harizanov.com/2013/02/new-rfm2pi-board-in-the-works/)
 
-![RFM12Pi\_V1.6\_pinout\_brd.png‎‎](img/v2/RFM12Pi_V1.6_pinout_brd.png‎‎
-"RFM12Pi_V1.6_pinout_brd.png‎‎")
+![RFM12Pi\_V1.6\_pinout\_brd.png‎‎](img/v2/RFM12Pi_V1.6_pinout_brd.png‎‎)
 
-![RFM12Pi\_V1.6\_sch.png‎‎](img/v2/RFM12Pi_V1.6_sch.png‎‎
-"RFM12Pi_V1.6_sch.png‎‎")
+![RFM12Pi\_V1.6\_sch.png‎‎](img/v2/RFM12Pi_V1.6_sch.png‎‎)
 
 ### Debugging
 
@@ -206,7 +204,7 @@ connected to the Pi's GPIO. Note the packets being received from Node 10
 These parameters can be changed in software by issuing the correct
 serial commands as illustrated below
 
-![RFM12Pi\_serial.png](img/v2/RFM12Pi_serial.png "RFM12Pi_serial.png")
+![](img/v2/RFM12Pi_serial.png)
 
 ### Hacks, Modifications & Extensions
 
