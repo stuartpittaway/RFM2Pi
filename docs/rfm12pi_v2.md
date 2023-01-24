@@ -2,7 +2,7 @@
 
 The RFM12Pi enables the Raspberry Pi to receive wireless data from the RFM12B wireless module.
 
-![RFM12PiV2\_Pi\_small.png‎](img/v2/RFM12PiV2_Pi_small.png‎)
+![RFM12PiV2\_Pi\_small.png](img/v2/RFM12PiV2_Pi_small.png)
 
 *Development of the RFM12Pi has been a team effort between [Martin Harizanov](http://harizanov.com/) and Glyn Hudson.*
 
