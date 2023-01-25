@@ -14,7 +14,7 @@ With the addition of an RFM12Pi expansion board to receive data via wireless fro
 
 - [RFM2Pi v1](docs/rfm12pi_v1.md)
 - [RFM2Pi v2](docs/rfm12pi_v2.md)
-- [RFM2Pi v3](docs/rfm12pi_v3.md)
+- [RFM69Pi v3](docs/rfm69pi_v3.md)
 
 ## [Hardware designs](https://github.com/openenergymonitor/RFM2Pi/tree/master/hardware)
 
