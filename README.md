@@ -1,10 +1,10 @@
-# RFM2Pi
+# RFM2Pi (Now RFM69Pi)
 
-## RFM12B / RFM69CW to Raspberry Pi board
+The RFM69Pi expansion board receives data from wireless nodes such as an emonTx or emonTH.
 
-With the addition of an RFM12Pi expansion board to receive data via wireless from other OpenEnergyMonitor modules such as an emonTx energy and temperature monitoring node or an emonGLCD display. A Raspberry Pi used to forward data to an emoncms sever or/and log data locally to a localy instance of Emoncms server running on the Pi.
+Node data is printed via serial and then read and processed by emonHub.
 
-## Documentation
+## Documentation 
 
 **OpenEnergyMonitor Docs**
 
