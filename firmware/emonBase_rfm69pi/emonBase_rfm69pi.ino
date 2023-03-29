@@ -14,7 +14,7 @@
 
 Change Log:
 */
-const char *firmware_version = {"1.1.0\n\r"};
+const char *firmware_version = {"1.1.1\n\r"};
 /*
 
 *********************************************************************************************
@@ -125,7 +125,7 @@ void setup()
   delay(2000);
 
   #if RadioFormat == RFM69_LOW_POWER_LABS
-    radio.initialize(RFM_433MHZ,EEProm.nodeID,EEProm.networkGroup);  
+    radio.initialize(RF69_433MHZ,EEProm.nodeID,EEProm.networkGroup);  
     radio.encrypt("89txbe4p8aik5kt3");
   #else
     rf.init(EEProm.nodeID, EEProm.networkGroup, 
@@ -239,8 +239,8 @@ void loop()
     if (rfChanged)
     {   
       #if RadioFormat == RFM69_LOW_POWER_LABS
-    radio.initialize(RFM_433MHZ,EEProm.nodeID,EEProm.networkGroup);  
-    radio.encrypt("89txbe4p8aik5kt3");
+        radio.initialize(RF69_433MHZ,EEProm.nodeID,EEProm.networkGroup);  
+        radio.encrypt("89txbe4p8aik5kt3");
       #else
         rf.init(EEProm.nodeID, EEProm.networkGroup, 
                    EEProm.RF_freq == RFM_915MHZ ? 915                      // Fall through to 433 MHz Band @ 434 MHz
@@ -262,6 +262,6 @@ void single_LED_flash(void)
 
 void double_LED_flash(void)
 {
-  digitalWrite(LEDpin, HIGH);  delay(20); digitalWrite(LEDpin, LOW); delay(60); 
-  digitalWrite(LEDpin, HIGH);  delay(20); digitalWrite(LEDpin, LOW);
+  digitalWrite(LEDpin, HIGH);  delay(10); digitalWrite(LEDpin, LOW); delay(30); 
+  digitalWrite(LEDpin, HIGH);  delay(10); digitalWrite(LEDpin, LOW);
 }
