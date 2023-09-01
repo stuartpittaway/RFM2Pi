@@ -226,7 +226,7 @@ void setup() {
         rf12_initialize(config.nodeId&0x1F, config.nodeId >> 6 ,config.group);  
         saveConfig();
     }
-    
+
     showHelp();
     delay(2000);
 
