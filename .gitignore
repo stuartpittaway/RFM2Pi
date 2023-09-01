@@ -1,3 +1,5 @@
 .pioenvs
 *~
 .pio
+firmware/emonBase_rfm69pi/.vscode/extensions.json
+firmware/emonBase_rfm69pi/.vscode/settings.json
