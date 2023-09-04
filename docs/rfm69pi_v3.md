@@ -122,10 +122,15 @@ In order to compile Arduino sketches to work for this modified bootloader, we ne
 ```
 atmega328_384_8.name=ATmega328 Optiboot @ 38,400baud w/ 8MHz Int. RC Osc.
 
+atmega328_384_8.upload.tool=avrdude
+atmega328_384_8.upload.tool.default=avrdude
+atmega328_384_8.upload.tool.network=arduino_ota
 atmega328_384_8.upload.protocol=arduino
 atmega328_384_8.upload.maximum_size=30720
 atmega328_384_8.upload.speed=38400
 
+atmega328_384_8.bootloader.tool=avrdude
+atmega328_384_8.bootloader.tool.default=avrdude
 atmega328_384_8.bootloader.low_fuses=0xE2
 atmega328_384_8.bootloader.high_fuses=0xDE
 atmega328_384_8.bootloader.extended_fuses=0x05
@@ -138,6 +143,7 @@ atmega328_384_8.build.mcu=atmega328p
 atmega328_384_8.build.f_cpu=8000000L
 atmega328_384_8.build.core=arduino
 atmega328_384_8.build.variant=standard
+atmega328_384_8.build.board=AVR_UNO
 ```
 
 Now we need to select: Board > ATmega328 Optiboot at 38,400 bps with 8MHz Internal RC Osc in the Arduino IDE when compiling sketches.
